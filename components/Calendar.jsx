@@ -1,35 +1,10 @@
-import {useEffect, useState} from 'react';
 import {Team} from './Team';
 import {Spinner} from './Spinner';
-import {matches as data} from 'data/matches';
+
 import {DateTitle} from './DateTitle';
 import {ChannelList} from './ChannelList';
 
-const HOUR_DIFFERENCE = 8;
-
-export const Calendar = () => {
-  const [matches, setMatches] = useState({});
-
-  useEffect(() => {
-    const groupByDate = data.reduce((group, match) => {
-      const {local_date} = match;
-      const partsOfDate = local_date.split(' ');
-      const date = partsOfDate[0];
-      const local_time = partsOfDate[1];
-      const partsOfTime = local_time.split(':');
-      const hour = Number(partsOfTime[0]);
-      const colHour = hour - HOUR_DIFFERENCE;
-      const time = `${colHour}:${partsOfTime[1]}`;
-      group[date] = group[date] ?? [];
-      group[date].push({...match, date, time});
-      return group;
-    }, {});
-    setMatches(groupByDate);
-    return () => {
-      console.log('unmounted Calendar');
-    };
-  }, []);
-
+export const Calendar = ({matches}) => {
   if (!matches || matches.length <= 0) return <Spinner />;
   return (
     <section className='relative mt-28 sm:mt-20 md:mt-20'>
