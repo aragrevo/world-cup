@@ -10,8 +10,8 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className='p-4'>
-        <h1 className='text-4xl text-center'>Welcome to Fifa World Cup ⚽</h1>
+      <main className='relative'>
+        <h1 className='text-4xl text-center fixed top-0 left-0 bg-slate-900 z-10 p-4'>Welcome to Fifa World Cup ⚽</h1>
         <Calendar />
       </main>
     </div>

@@ -46,6 +46,7 @@ export const matches = [
     away_team_fa: 'ایران',
     home_team_en: 'England',
     away_team_en: 'Iran',
+    exclusive: true,
     home_flag: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/125px-Flag_of_England.svg.png',
     away_flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/125px-Flag_of_Iran.svg.png',
   },
@@ -148,6 +149,7 @@ export const matches = [
     away_team_fa: 'تونس',
     home_team_en: 'Denmark',
     away_team_en: 'Tunisia',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/125px-Flag_of_Denmark.svg.png',
     away_flag:
@@ -200,6 +202,7 @@ export const matches = [
     away_team_fa: 'استرالیا',
     home_team_en: 'France',
     away_team_en: 'Australia',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/125px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png',
     away_flag:
@@ -252,6 +255,7 @@ export const matches = [
     away_team_fa: 'ژاپن',
     home_team_en: 'Germany',
     away_team_en: 'Japan',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/125px-Flag_of_Germany.svg.png',
     away_flag:
@@ -278,6 +282,7 @@ export const matches = [
     away_team_fa: 'کاستاریکا',
     home_team_en: 'Spain',
     away_team_en: 'Costa Rica',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/125px-Flag_of_Spain.svg.png',
     away_flag:
@@ -356,6 +361,7 @@ export const matches = [
     away_team_fa: 'غنا',
     home_team_en: 'Portugal',
     away_team_en: 'Ghana',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/125px-Flag_of_Portugal.svg.png',
     away_flag:
@@ -408,6 +414,7 @@ export const matches = [
     away_team_fa: 'کامرون',
     home_team_en: 'Switzerland',
     away_team_en: 'Cameroon',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/100px-Flag_of_Switzerland.svg.png',
     away_flag:
@@ -434,6 +441,7 @@ export const matches = [
     away_team_fa: 'ولز',
     home_team_en: 'Iran',
     away_team_en: 'Wales',
+    exclusive: true,
     home_flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/125px-Flag_of_Iran.svg.png',
     away_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Flag_of_Wales_%281959%29.svg/125px-Flag_of_Wales_%281959%29.svg.png',
@@ -459,6 +467,7 @@ export const matches = [
     away_team_fa: 'سنگال',
     home_team_en: 'Qatar',
     away_team_en: 'Senegal',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/125px-Flag_of_Qatar.svg.png',
     away_flag:
@@ -485,6 +494,7 @@ export const matches = [
     away_team_fa: 'اکوادور',
     home_team_en: 'Nederlands',
     away_team_en: 'Ecuador',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/125px-Flag_of_the_Netherlands.svg.png',
     away_flag:
@@ -536,6 +546,7 @@ export const matches = [
     away_team_fa: 'استرالیا',
     home_team_en: 'Tunisia',
     away_team_en: 'Australia',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/125px-Flag_of_Tunisia.svg.png',
     away_flag:
@@ -588,6 +599,7 @@ export const matches = [
     away_team_fa: 'دانمارک',
     home_team_en: 'France',
     away_team_en: 'Denmark',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/125px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png',
     away_flag:
@@ -640,6 +652,7 @@ export const matches = [
     away_team_fa: 'کاستاریکا',
     home_team_en: 'Japan',
     away_team_en: 'Costa Rica',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/125px-Flag_of_Japan.svg.png',
     away_flag:
@@ -692,6 +705,7 @@ export const matches = [
     away_team_fa: 'کانادا',
     home_team_en: 'Croatia',
     away_team_en: 'Canada',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/125px-Flag_of_Croatia.svg.png',
     away_flag:
@@ -718,6 +732,7 @@ export const matches = [
     away_team_fa: 'آلمان',
     home_team_en: 'Spain',
     away_team_en: 'Germany',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/125px-Flag_of_Spain.svg.png',
     away_flag:
@@ -744,6 +759,7 @@ export const matches = [
     away_team_fa: 'کامرون',
     home_team_en: 'Serbia',
     away_team_en: 'Cameroon',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/125px-Flag_of_Serbia.svg.png',
     away_flag:
@@ -822,6 +838,7 @@ export const matches = [
     away_team_fa: 'اروگوئه',
     home_team_en: 'Portugal',
     away_team_en: 'Uruguay',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/125px-Flag_of_Portugal.svg.png',
     away_flag:
@@ -873,6 +890,7 @@ export const matches = [
     away_team_fa: 'آمریکا',
     home_team_en: 'Iran',
     away_team_en: 'United States',
+    exclusive: true,
     home_flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/125px-Flag_of_Iran.svg.png',
     away_flag:
       'https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/125px-Flag_of_the_United_States.svg.png',
@@ -898,6 +916,7 @@ export const matches = [
     away_team_fa: 'سنگال',
     home_team_en: 'Ecuador',
     away_team_en: 'Senegal',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/125px-Flag_of_Ecuador.svg.png',
     away_flag:
@@ -924,6 +943,7 @@ export const matches = [
     away_team_fa: 'قطر',
     home_team_en: 'Nederlands',
     away_team_en: 'Qatar',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/125px-Flag_of_the_Netherlands.svg.png',
     away_flag:
@@ -1002,6 +1022,7 @@ export const matches = [
     away_team_fa: 'آرژانتین',
     home_team_en: 'Poland',
     away_team_en: 'Argentina',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/125px-Flag_of_Poland.svg.png',
     away_flag:
@@ -1028,6 +1049,7 @@ export const matches = [
     away_team_fa: 'مکزیک',
     home_team_en: 'Saudi Arabia',
     away_team_en: 'Mexico',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/125px-Flag_of_Saudi_Arabia.svg.png',
     away_flag:
@@ -1054,6 +1076,7 @@ export const matches = [
     away_team_fa: 'بلژیک',
     home_team_en: 'Croatia',
     away_team_en: 'Belgium',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/125px-Flag_of_Croatia.svg.png',
     away_flag:
@@ -1080,6 +1103,7 @@ export const matches = [
     away_team_fa: 'مراکش',
     home_team_en: 'Canada',
     away_team_en: 'Morocco',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/125px-Flag_of_Canada_%28Pantone%29.svg.png',
     away_flag:
@@ -1132,6 +1156,7 @@ export const matches = [
     away_team_fa: 'آلمان',
     home_team_en: 'Costa Rica',
     away_team_en: 'Germany',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/125px-Flag_of_Costa_Rica_%28state%29.svg.png',
     away_flag:
@@ -1184,6 +1209,7 @@ export const matches = [
     away_team_fa: 'پرتغال',
     home_team_en: 'South Korea',
     away_team_en: 'Portugal',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/125px-Flag_of_South_Korea.svg.png',
     away_flag:
@@ -1236,6 +1262,7 @@ export const matches = [
     away_team_fa: 'کامرون',
     home_team_en: 'Brazil',
     away_team_en: 'Cameroon',
+    exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/125px-Flag_of_Brazil.svg.png',
     away_flag:
