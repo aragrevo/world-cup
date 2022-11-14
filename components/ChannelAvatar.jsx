@@ -21,14 +21,14 @@ export const ChannelAvatar = ({type}) => {
   return (
     <div className='-ml-3'>
       <div
-        className={`flex justify-center items-center rounded-full w-8 h-8 overflow-hidden border ${
+        className={`flex justify-center items-center rounded-full w-9 h-9 overflow-hidden border p-1 ${
           type === 'directv' ? 'border-slate-900 bg-slate-900' : 'border-transparent'
         } `}>
         <Image
-          width={24}
-          height={24}
+          width={256}
+          height={256}
           alt={channels[type].name}
-          className='aspect-square object-scale-down '
+          className='aspect-square w-8 h-8 object-scale-down'
           src={channels[type].image}
         />
       </div>

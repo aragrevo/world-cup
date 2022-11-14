@@ -32,7 +32,7 @@ export const Calendar = () => {
 
   if (!matches || matches.length <= 0) return <Spinner />;
   return (
-    <section className='relative mt-28'>
+    <section className='relative mt-28 sm:mt-20 md:mt-20'>
       {Object.keys(matches)
         .sort()
         .map(o => (
