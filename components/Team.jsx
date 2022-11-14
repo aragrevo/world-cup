@@ -6,8 +6,8 @@ export const Team = ({flag, name, reverse}) => {
         <Image
           src={flag}
           alt={name}
-          width={256}
-          height={256}
+          width={125}
+          height={125}
           className='rounded-full aspect-square object-cover w-9 h-9 bg-gradient-to-br from-slate-900 to-transparent'
         />
       </div>
