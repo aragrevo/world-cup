@@ -11,7 +11,9 @@ export default function Home() {
       </Head>
 
       <main className='relative'>
-        <h1 className='text-4xl text-center fixed top-0 left-0 bg-slate-900 z-10 p-4'>Welcome to Fifa World Cup ⚽</h1>
+        <h1 className='text-4xl text-center fixed top-0 left-0 bg-slate-900 z-20 p-4 w-full'>
+          Welcome to Fifa World Cup ⚽
+        </h1>
         <Calendar />
       </main>
     </div>
