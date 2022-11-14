@@ -42,7 +42,9 @@ export const Calendar = () => {
               {matches[o]
                 .sort((a, b) => (a.local_date >= b.local_date ? 1 : -1))
                 .map(m => (
-                  <li key={m.id} className='flex flex-col gap-2'>
+                  <li
+                    key={m.id}
+                    className='flex flex-col gap-2 border-b pb-2 last:pb-0 last:border-b-0 border-slate-800'>
                     <div className='flex justify-between'>
                       <span className='font-semibold align-middle h-fit self-start'>Group {m.group}</span>
                       <ChannelList exclusive={m.exclusive} />
