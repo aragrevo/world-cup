@@ -52,10 +52,10 @@ export const matches = [
   },
   {
     _id: '629c9c8a5749c4077500ead6',
-    away_score: 0,
-    away_scorers: ['null'],
+    away_score: 2,
+    away_scorers: ['Enner Valencia,Enner Valencia'],
     away_team_id: '2',
-    finished: 'FALSE',
+    finished: 'TRUE',
     group: 'A',
     home_score: 0,
     home_scorers: ['null'],

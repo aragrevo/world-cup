@@ -19,14 +19,22 @@ export const Calendar = ({matches}) => {
                 .map(m => (
                   <li
                     key={m.id}
-                    className='flex flex-col gap-2 border-b pb-2 last:pb-0 last:border-b-0 border-slate-800'>
+                    className={`flex flex-col gap-2 border-b pb-2 last:pb-0 last:border-b-0 border-slate-800 ${
+                      m.finished === 'TRUE' ? 'opacity-70' : ''
+                    }`}>
                     <div className='flex justify-between'>
                       <span className='font-semibold align-middle h-fit self-start'>Group {m.group}</span>
                       <ChannelList exclusive={m.exclusive} />
                     </div>
                     <div className='flex gap-2 justify-center items-center'>
                       <Team flag={m.home_flag} name={m.home_team_en} reverse={true} />
-                      <span className='font-semibold align-middle h-fit'>{m.time}</span>
+                      {m.finished === 'TRUE' ? (
+                        <span className='font-semibold align-middle h-fit'>
+                          {m.home_score} - {m.away_score}
+                        </span>
+                      ) : (
+                        <span className='font-semibold align-middle h-fit'>{m.time}</span>
+                      )}
                       <Team flag={m.away_flag} name={m.away_team_en} />
                     </div>
                   </li>
