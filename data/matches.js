@@ -199,7 +199,7 @@ export const matches = [
     away_score: 0,
     away_scorers: [ 'null' ],
     away_team_id: '18',
-    finished: 'FALSE',
+    finished: 'TRUE',
     group: 'F',
     home_score: 0,
     home_scorers: [ 'null' ],
