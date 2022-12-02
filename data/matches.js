@@ -202,12 +202,12 @@ export const matches = [
     home_team_fa: 'پرتغال',
     away_team_fa: 'برزیل',
     home_team_en: 'Portugal',
-    away_team_en: 'Brazil',
     exclusive: true,
     home_flag:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/125px-Flag_of_Portugal.svg.png',
+    away_team_en: 'Switzerland',
     away_flag:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/125px-Flag_of_Brazil.svg.png',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/100px-Flag_of_Switzerland.svg.png',
   },
   {
     _id: '629c9c8a5749c4077500ead4',
