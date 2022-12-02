@@ -12,7 +12,7 @@ export const Calendar = ({matches}) => {
         .sort()
         .map(o => (
           <div key={o} className='my-3 shadow-sm shadow-slate-900'>
-            <DateTitle date={o} />
+            <DateTitle date={o} type={matches[o][0].type} />
             <ul className='px-4'>
               {matches[o]
                 .sort((a, b) => (a.local_date >= b.local_date ? 1 : -1))
@@ -20,7 +20,7 @@ export const Calendar = ({matches}) => {
                   <li
                     key={m.id}
                     className={`flex flex-col gap-2 border-b pb-2 last:pb-0 last:border-b-0 border-slate-800 ${
-                      m.finished === 'TRUE' ? 'opacity-70' : ''
+                      m.finished === 'TRUE' ? 'opacity-70 scale-95' : ''
                     }`}>
                     <div className='flex justify-between'>
                       <span className='font-semibold align-middle h-fit self-start'>Group {m.group}</span>
