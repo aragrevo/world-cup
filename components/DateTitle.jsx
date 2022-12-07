@@ -10,7 +10,9 @@ export const DateTitle = ({date, type}) => {
   const day = new Date(date).getUTCDay();
   return (
     <h3
-      className={`sticky top-28 sm:top-[4.4rem]  shadow-sm shadow-slate-900 bg-slate-800 text-base font-semibold py-1 px-4 z-10 ${bgColors[type]}`}>
+      className={`sticky top-28 sm:top-[4.4rem]  shadow-sm shadow-slate-900 bg-slate-800 text-base font-semibold py-1 px-4 z-10 ${
+        type === 'R16' ? 'bg-indigo-900' : type === 'QR' ? 'bg-amber-700' : ''
+      }`}>
       {days[day]}, {date}
     </h3>
   );
