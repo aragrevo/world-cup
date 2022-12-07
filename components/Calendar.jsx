@@ -9,7 +9,7 @@ export const Calendar = ({matches}) => {
   return (
     <section className='relative mt-28 sm:mt-20 md:mt-20'>
       {Object.keys(matches)
-        .sort()
+        .sort((a, b) => (a.localeCompare(b) ? 1 : -1))
         .map(o => (
           <div key={o} className='my-3 shadow-sm shadow-slate-900'>
             <DateTitle date={o} type={matches[o][0].type} />
