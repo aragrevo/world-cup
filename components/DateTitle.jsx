@@ -12,7 +12,13 @@ export const DateTitle = ({date, type}) => {
   return (
     <h3
       className={`sticky top-28 sm:top-[4.4rem]  shadow-sm shadow-slate-900 text-base font-semibold py-1 px-4 z-10 ${
-        type === 'R16' ? 'bg-indigo-900' : type === 'QR' ? 'bg-amber-700' : 'bg-slate-800'
+        type === 'R16'
+          ? 'bg-indigo-900'
+          : type === 'QR'
+          ? 'bg-amber-700'
+          : type === 'semi'
+          ? 'bg-green-800'
+          : 'bg-slate-800'
       }`}>
       {days[day]}, {date}
     </h3>
